@@ -1,0 +1,84 @@
+.rcorners {
+  border-radius: 15px;
+  padding: 3px 10px 10px 10px;
+  margin: 10px 0 0 0;
+  background-color: #FFFFFF;
+  box-shadow: 2px 3px 3px 3px rgba(186,186,186,0.88);
+}
+
+.banner{
+	background-image: url("banner.jpg");
+	background-size: contain;
+	height: 120px;
+	margin-bottom: 20px;
+}
+
+.stripped {
+background-image:  url("stripes.png");
+background-repeat: repeat-x;
+background-size: 300px;
+}
+
+.container {
+text-align: left;
+position:relative;
+background-color: #E8E8E8;
+margin:auto;
+width:800px;
+padding:10px;
+}
+
+.side {
+position:absolute;
+top:165px;
+}
+
+.left {
+padding-left: 50px;
+}
+
+.right {
+padding-left: 15px;
+padding-right: 50px;
+}
+
+.choices .people {
+color:#808080;
+display:inline;
+}
+
+h2{
+  color: #696969;
+  margin-block-start: 0.2em;
+}
+
+section {
+width:530;
+display:block;
+margin:0 0 0 220px;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+li {
+list-style:none;
+padding:5px;
+border-bottom:1px solid #DCDCDC;
+}
+
+span {
+  color:#e046b2;
+  text-decoration: none;
+}
+
+a {
+  color:#e046b2;
+  text-decoration:underline;
+}
+
+.choices li span {
+font-weight:bold;
+display:block;
+}

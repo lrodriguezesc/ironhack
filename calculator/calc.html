@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Could be self-contained, used multiple files-->
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <script type="text/javascript" src="calculator.js"></script>
+    </head>
+    <body>
+        <div id="calculator">
+            <!--screen-->
+            <input type="text" id="pre"/>
+            <input type="text" id="calculation"/>
+            <!--row1-->
+            <input type="button" value=" 1 " onclick="calculate(1)" />
+            <input type="button" value=" 2 " onclick="calculate(2)" />
+            <input type="button" value=" 3 " onclick="calculate(3)" />
+            <input type="button" value=" + " onclick="calculate(' + ',true)" />
+            <!--row2-->
+            <input type="button" value=" 4 " onclick="calculate(4)" />
+            <input type="button" value=" 5 " onclick="calculate(5)" />
+            <input type="button" value=" 6 " onclick="calculate(6)" />
+            <input type="button" value=" - " onclick="calculate(' - ',true)" />
+            <!--row3-->
+            <input type="button" value=" 7 " onclick="calculate(7)" />
+            <input type="button" value=" 8 " onclick="calculate(8)" />
+            <input type="button" value=" 9 " onclick="calculate(9)" />
+            <input type="button" value=" x " onclick="calculate(' * ', true)" />
+            <!--row4-->
+            <input type="button" value=" c " onclick="calculate('c', true)" />
+            <input type="button" value=" 0 " onclick="calculate(0)" />
+            <input type="button" value=" = " onclick="calculate(' = ', true)" />
+            <input type="button" value=" / " onclick="calculate(' / ', true)" />
+    
+        </div>
+    </body>
+</html>

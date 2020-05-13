@@ -21,6 +21,7 @@ function calculate(pressed,operator = false){
             document.getElementById("calculation").value = result
             document.getElementById("pre").value = operation + result;
             operation='';
+            operator= false;
         }
     }else{
          document.getElementById("calculation").value += pressed;
